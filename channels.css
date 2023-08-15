@@ -51,7 +51,7 @@
 
 .avatar-1HDIsL{
     position: absolute;
-    left: calc(var(--9)*1px / 2 - 17px);
+    left: min(calc(var(--9)*1px / 2 - 17px), 16px);
     transition: var(--6);
     transition-delay: var(--7);
 }
