@@ -10,7 +10,7 @@
 /* guilds sidebar */
 @import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/guilds.css');
 /* channels sidebar */
-/* @import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/channels.css'); */
+/* @import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/channels.scss'); */
 /* users sidebar */
 @import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/users.css');
 /* no scrollbar (recommended if you're using the channels sidebar, credit to comfy themes) */
