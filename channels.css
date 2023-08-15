@@ -1,5 +1,5 @@
 .sidebar-1tnWFu{
-	width: 46px;
+	width: var(--9);
 	transition: var(--6);
 	transition-delay: var(--7);
 }
@@ -21,8 +21,13 @@
 	transition: var(--6);
 	transition-delay: var(--7);
 }
+/* these are separate so that the channel & user names disappearing is not visible */
+.name-28HaxV, .nameTag-sc-gpq{
+    opacity: 0;
+	transition-delay: calc(var(--7) + var(--6));
+}
 
-.sidebar-1tnWFu:hover .name-3BUDLf, .sidebar-1tnWFu:hover .children-3MeUvj, .sidebar-1tnWFu:hover .arrow-2HswgU{
+.sidebar-1tnWFu:hover .name-3BUDLf, .sidebar-1tnWFu:hover .children-3MeUvj, .sidebar-1tnWFu:hover .arrow-2HswgU, .sidebar-1tnWFu:hover .name-28HaxV, .sidebar-1tnWFu:hover .nameTag-sc-gpq{
     opacity: 1;
     transition: var(--5);
 	transition-delay: var(--8);
@@ -34,6 +39,7 @@
 	transition-delay: var(--7);
     content:'';
     position: absolute;
+    left: calc(var(--9) / 2 - 8px);
     width: 10px;
     border: 3px solid;
     border-radius: 3px;
