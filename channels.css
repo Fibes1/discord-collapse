@@ -1,0 +1,45 @@
+.sidebar-1tnWFu{
+	width: 46px;
+	transition: var(--10);
+	transition-delay: var(--11);
+}
+.sidebar-1tnWFu:hover{
+	width: 240px;
+	transition: var(--9);
+	transition-delay: var(--12);
+}
+
+.children-1MGS9G{
+    display: none;
+}
+.sidebar-1tnWFu:hover .children-1MGS9G{
+    display: flex;
+}
+
+.name-3BUDLf, .children-3MeUvj, .arrow-2HswgU{
+    opacity: 0;
+	transition: var(--10);
+	transition-delay: var(--11);
+}
+
+.sidebar-1tnWFu:hover .name-3BUDLf, .sidebar-1tnWFu:hover .children-3MeUvj, .sidebar-1tnWFu:hover .arrow-2HswgU{
+    opacity: 1;
+    transition: var(--9);
+	transition-delay: var(--12);
+}
+
+.wrapper-1S43wv:before{
+    opacity: 1;
+	transition: var(--10);
+	transition-delay: var(--11);
+    content:'';
+    position: absolute;
+    width: 10px;
+    border: 3px solid;
+    border-radius: 3px;
+}
+.sidebar-1tnWFu:hover .wrapper-1S43wv:before{
+    opacity: 0;
+    transition: var(--9);
+	transition-delay: var(--12);
+}
