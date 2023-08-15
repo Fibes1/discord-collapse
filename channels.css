@@ -104,7 +104,7 @@
     transition-delay: var(--8);
 }
 
-.content-yjf30S > div:nth-child(1), .content-yjf30S > div:nth-child(2){ /* invisible separaters on community servers, and vc participants */
+.content-yjf30S > div:nth-child(1), .content-yjf30S > div:nth-child(2){ /* invisible separaters on community servers */
     max-height: 0px;
     transition: var(--6);
     transition-delay: var(--7);
