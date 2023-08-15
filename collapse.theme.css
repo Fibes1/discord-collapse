@@ -26,10 +26,11 @@
     --6: 0.6s; /* hide animation length (default: 0.6s) */
     --7: 1s; /* how long the sidebar stays open after your cursor is moved away (default: 1s) */
     --8: 0.3s; /* how long the cursor should stay hovered before the sidebar is revealed (default: 0.3s) */
+    --9: 52px; /* width when collapsed (default: 52px) */
 
     /* users settings */
-    --9: 0.2s; /* reveal animation length (default: 0.2s) */
-    --10: 0.6s; /* hide animation length (default: 0.6s) */
-    --11: 1s; /* how long the sidebar stays open after your cursor is moved away (default: 1s) */
-    --12: 0.3s; /* how long the cursor should stay hovered before the sidebar is revealed (default: 0.3s) */
+    --10: 0.2s; /* reveal animation length (default: 0.2s) */
+    --11: 0.6s; /* hide animation length (default: 0.6s) */
+    --12: 1s; /* how long the sidebar stays open after your cursor is moved away (default: 1s) */
+    --13: 0.3s; /* how long the cursor should stay hovered before the sidebar is revealed (default: 0.3s) */
 }
