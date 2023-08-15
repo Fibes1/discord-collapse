@@ -16,7 +16,7 @@
     display: flex;
 }
 
-.name-3BUDLf, .children-3MeUvj, .arrow-2HswgU, .bannerImage-ubW8K-, .headerText-1qIDDT, .container-q97qHp .icon-2xnN2Y{ /* category name, category icons, category arrow, dm category name, dm category icons */
+.name-3BUDLf, .children-3MeUvj, .arrow-2HswgU, .list-2x9Cl9, .bannerImage-ubW8K-, .headerText-1qIDDT, .container-q97qHp .icon-2xnN2Y{ /* category name, category icons, category arrow, vc participants, banner, dm category name, dm category icons */
     opacity: 0;
     transition: var(--6);
     transition-delay: var(--7);
@@ -26,7 +26,7 @@
     transition-delay: calc(var(--7) + var(--6));
 }
 
-.sidebar-1tnWFu:hover .name-3BUDLf, .sidebar-1tnWFu:hover .children-3MeUvj, .sidebar-1tnWFu:hover .arrow-2HswgU, .sidebar-1tnWFu:hover .bannerImage-ubW8K-, .sidebar-1tnWFu:hover .name-28HaxV, .sidebar-1tnWFu:hover .nameTag-sc-gpq, .sidebar-1tnWFu:hover  .headerChildren-2qV9P8, .sidebar-1tnWFu:hover .headerText-1qIDDT, .sidebar-1tnWFu:hover .icon-2xnN2Y{
+.sidebar-1tnWFu:hover .name-3BUDLf, .sidebar-1tnWFu:hover .children-3MeUvj, .sidebar-1tnWFu:hover .arrow-2HswgU, .sidebar-1tnWFu:hover .list-2x9Cl9, .sidebar-1tnWFu:hover .bannerImage-ubW8K-, .sidebar-1tnWFu:hover .name-28HaxV, .sidebar-1tnWFu:hover .nameTag-sc-gpq, .sidebar-1tnWFu:hover  .headerChildren-2qV9P8, .sidebar-1tnWFu:hover .headerText-1qIDDT, .sidebar-1tnWFu:hover .icon-2xnN2Y{
     opacity: 1;
     transition: var(--5);
     transition-delay: var(--8);
