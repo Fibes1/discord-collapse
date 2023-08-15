@@ -32,7 +32,7 @@
     transition-delay: var(--8);
 }
 
-.wrapper-1S43wv:before, .content-yjf30S > .container-q97qHp:before{
+.wrapper-1S43wv:before, .sidebar-1tnWFu .content-yjf30S > .container-q97qHp:before{
     opacity: 1;
     transition: var(--6);
     transition-delay: var(--7);
