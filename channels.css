@@ -1,5 +1,5 @@
 .sidebar-1tnWFu{
-    width: var(--9);
+    width: calc(var(--9)*1px);
     transition: var(--6);
     transition-delay: var(--7);
 }
@@ -23,7 +23,7 @@
 }
 /* this is separate so that the channel names, user info & server name do not visibly disappear */
 .name-28HaxV, .nameTag-sc-gpq, .headerChildren-2qV9P8{
-    opacity: max(calc(strip-unit(var(--9)) - 59), 0);
+    opacity: max(calc(var(--9) - 59), 0);
     transition-delay: calc(var(--7) + var(--6));
 }
 
@@ -39,7 +39,7 @@
     transition-delay: var(--7);
     content:'';
     position: absolute;
-    left: calc(var(--9) / 2 - 8px);
+    left: calc(var(--9)*1px / 2 - 8px);
     width: 10px;
     border: 3px solid;
     border-radius: 3px;
