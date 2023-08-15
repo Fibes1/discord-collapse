@@ -16,20 +16,20 @@
 
 :root {
     /* guilds settings */
-    --1: 0.2s /* reveal animation length (default: 0.2s) */
-    --2: 0.6s /* hide animation length (default: 0.6s) */
-    --3: 1s /* how long the sidebar stays open after your cursor is moved away (default: 1s) */
-    --4: 0s /* how long the cursor should stay hovered before the sidebar is revealed (default: 0s) */
+    --1: 0.2s; /* reveal animation length (default: 0.2s) */
+    --2: 0.6s; /* hide animation length (default: 0.6s) */
+    --3: 1s; /* how long the sidebar stays open after your cursor is moved away (default: 1s) */
+    --4: 0s; /* how long the cursor should stay hovered before the sidebar is revealed (default: 0s) */
 
     /* channels settings */
-    --5: 0.2s /* reveal animation length (default: 0.2s) */
-    --6: 0.6s /* hide animation length (default: 0.6s) */
-    --7: 1s /* how long the sidebar stays open after your cursor is moved away (default: 1s) */
-    --8: 0.3s /* how long the cursor should stay hovered before the sidebar is revealed (default: 0.3s) */
+    --5: 0.2s; /* reveal animation length (default: 0.2s) */
+    --6: 0.6s; /* hide animation length (default: 0.6s) */
+    --7: 1s; /* how long the sidebar stays open after your cursor is moved away (default: 1s) */
+    --8: 0.3s; /* how long the cursor should stay hovered before the sidebar is revealed (default: 0.3s) */
 
     /* users settings */
-    --9: 0.2s /* reveal animation length (default: 0.2s) */
-    --10: 0.6s /* hide animation length (default: 0.6s) */
-    --11: 1s /* how long the sidebar stays open after your cursor is moved away (default: 1s) */
-    --12: 0s /* how long the cursor should stay hovered before the sidebar is revealed (default: 0s) */
+    --9: 0.2s; /* reveal animation length (default: 0.2s) */
+    --10: 0.6s; /* hide animation length (default: 0.6s) */
+    --11: 1s; /* how long the sidebar stays open after your cursor is moved away (default: 1s) */
+    --12: 0s; /* how long the cursor should stay hovered before the sidebar is revealed (default: 0s) */
 }
