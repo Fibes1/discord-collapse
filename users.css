@@ -1,21 +1,3 @@
-.container-2o3qEW{
-	opacity: 0;
-	width: 0px;
-	transition: var(--6);
-	transition-delay: var(--7);
-	padding: 1px;
-}
-.container-2o3qEW:hover{
-	opacity: 1;
-	width: 240px;
-	transition: var(--5);
-	transition-delay: var(--8);
-}
-.container-2o3qEW:has(.selected-1-Z6gm){
-	opacity: 1;
-	width: 240px;
-}
-
 .toolbar-3_r2xA > div[aria-label="Hide Member List"]{
 	display: none;
 }
