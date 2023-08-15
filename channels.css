@@ -22,17 +22,17 @@
     transition-delay: var(--8);
 }
 
-.name-3BUDLf, .children-3MeUvj, .arrow-2HswgU, .list-2x9Cl9, .bannerImage-ubW8K-, .headerText-1qIDDT, .container-q97qHp .icon-2xnN2Y{ /* category name, category icons, category arrow, vc participants, banner, dm category name, dm category icons */
+.name-3BUDLf, .children-3MeUvj, .arrow-2HswgU, .list-2x9Cl9, .headerText-1qIDDT, .container-q97qHp .icon-2xnN2Y{ /* category name, category icons, category arrow, vc participants, dm category name, dm category icons */
     opacity: 0;
     transition: var(--6);
     transition-delay: var(--7);
 }
-.name-28HaxV, .nameTag-sc-gpq, .headerChildren-2qV9P8{ /* this is separate so that the channel names, user info & server name do not visibly disappear */
+.name-28HaxV, .nameTag-sc-gpq{ /* this is separate so that the channel names & user info do not visibly disappear */
     opacity: max(calc(var(--9) - 59), 0);
     transition-delay: calc(var(--7) + var(--6));
 }
 
-.sidebar-1tnWFu:hover .name-3BUDLf, .sidebar-1tnWFu:hover .children-3MeUvj, .sidebar-1tnWFu:hover .arrow-2HswgU, .sidebar-1tnWFu:hover .list-2x9Cl9, .sidebar-1tnWFu:hover .bannerImage-ubW8K-, .sidebar-1tnWFu:hover .name-28HaxV, .sidebar-1tnWFu:hover .nameTag-sc-gpq, .sidebar-1tnWFu:hover  .headerChildren-2qV9P8, .sidebar-1tnWFu:hover .headerText-1qIDDT, .sidebar-1tnWFu:hover .icon-2xnN2Y{
+.sidebar-1tnWFu:hover .name-3BUDLf, .sidebar-1tnWFu:hover .children-3MeUvj, .sidebar-1tnWFu:hover .arrow-2HswgU, .sidebar-1tnWFu:hover .list-2x9Cl9, .sidebar-1tnWFu:hover .name-28HaxV, .sidebar-1tnWFu:hover .nameTag-sc-gpq, .sidebar-1tnWFu:hover .headerText-1qIDDT, .sidebar-1tnWFu:hover .icon-2xnN2Y{
     opacity: 1;
     transition: var(--5);
     transition-delay: var(--8);
@@ -70,4 +70,54 @@
 .content-66wMin{
     position: relative;
     margin-left: 44px;
+}
+
+.container-1-ERn5{ /* banner & server info */
+    max-height: 48px;
+    opacity: 0; 
+    transition: var(--6);
+    transition-delay: var(--7);
+}
+
+.sidebar-1tnWFu:hover .container-1-ERn5{
+    max-height: 135px;
+    opacity: 1;
+    transition: var(--5);
+    transition-delay: var(--8);
+}
+
+.container-2giAcK{ /* boosts section */
+    max-height: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    opacity: 0; 
+    transition: var(--6);
+    transition-delay: var(--7);
+}
+
+.sidebar-1tnWFu:hover .container-2giAcK{
+    max-height: 57px;
+    padding-top: 6px;
+    opacity: 1;
+    transition: var(--5);
+    transition-delay: var(--8);
+}
+
+.content-yjf30S > div:nth-child(1), .content-yjf30S > div:nth-child(2){ /* invisible separaters on community servers, and vc participants */
+    max-height: 0px;
+    transition: var(--6);
+    transition-delay: var(--7);
+}
+
+.sidebar-1tnWFu:hover .content-yjf30S > div:nth-child(1){
+    max-height: 84px;
+    transition: var(--5);
+    transition-delay: var(--8);
+}
+
+.sidebar-1tnWFu:hover .content-yjf30S > div:nth-child(2){
+    max-height: 12px;
+    transition: var(--5);
+    transition-delay: var(--8);
 }
