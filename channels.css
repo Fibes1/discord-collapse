@@ -104,12 +104,12 @@
     transition-delay: var(--8);
 }
 
-.content-yjf30S > div:nth-child(1){ /* invisible separater on community servers */
+#channels > ul > div:nth-child(1){ /* invisible separater on community servers */
     max-height: 0px;
     transition: var(--6);
     transition-delay: var(--7);
 }
-.sidebar-1tnWFu:hover .content-yjf30S > div:nth-child(1){
+.sidebar-1tnWFu:hover #channels > ul > div:nth-child(1){
     max-height: 84px;
     transition: var(--5);
     transition-delay: var(--8);
