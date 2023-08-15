@@ -5,12 +5,12 @@
 */
 
 
-/* add comments surrounding an @import to disable that feature */
+/* add/remove comments surrounding an @import to disable that feature */
 
 /* guilds sidebar */
 @import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/guilds.css');
 /* channels sidebar */
-@import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/channels.css');
+/* @import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/channels.css'); */
 /* users sidebar */
 @import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/users.css');
 
