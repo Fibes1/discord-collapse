@@ -1,12 +1,13 @@
 .guilds-2JjMmN{
 	opacity: 0;
 	width: 0px;
-	transition: 0.6s;
-	transition-delay: 1s;
+	transition: var(--2);
+	transition-delay: var(--3);
 	padding: 1px;
 }
 .guilds-2JjMmN:hover{
 	opacity: 1;
 	width: 72px;
-	transition: 0.2s;
+	transition: var(--1);
+	transition-delay: var(--4);
 }
