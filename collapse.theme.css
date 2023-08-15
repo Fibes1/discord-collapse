@@ -5,7 +5,7 @@
 */
 
 
-/* add/remove comments surrounding an @import to disable that feature */
+/* add/remove comments surrounding an @import to disable/enable that feature */
 
 /* guilds sidebar */
 @import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/guilds.css');
