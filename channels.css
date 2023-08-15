@@ -1,4 +1,4 @@
-.sidebar-1tnWFu{
+.sidebar-1tnWFu{ /* sidebar */
     width: calc(var(--9)*1px);
     transition: var(--6);
     transition-delay: var(--7);
@@ -38,7 +38,7 @@
     transition-delay: var(--8);
 }
 
-.wrapper-1S43wv:before, .sidebar-1tnWFu .content-yjf30S > .container-q97qHp:before{
+.wrapper-1S43wv:before, .sidebar-1tnWFu .content-yjf30S > .container-q97qHp:before{ /* custom rectangle */
     opacity: 1;
     transition: var(--6);
     transition-delay: var(--7);
@@ -55,7 +55,7 @@
     transition-delay: var(--8);
 }
 
-.avatar-1HDIsL{
+.avatar-1HDIsL{ /* dm avatars */
     position: absolute;
     left: min(calc(var(--9)*1px / 2 - 17px), 16px);
     transition: var(--6);
@@ -67,7 +67,7 @@
     transition-delay: var(--8);
 }
 
-.content-66wMin{
+.content-66wMin{ /* dm names */
     position: relative;
     margin-left: 44px;
 }
@@ -78,7 +78,6 @@
     transition: var(--6);
     transition-delay: var(--7);
 }
-
 .sidebar-1tnWFu:hover .container-1-ERn5{
     max-height: 135px;
     opacity: 1;
@@ -88,36 +87,30 @@
 
 .container-2giAcK{ /* boosts section */
     max-height: 0px;
-    margin: 0px;
+    margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
     opacity: 0; 
     transition: var(--6);
     transition-delay: var(--7);
 }
-
 .sidebar-1tnWFu:hover .container-2giAcK{
     max-height: 57px;
+    margin-bottom: 12px;
     padding-top: 6px;
+    padding-bottom: 7px;
     opacity: 1;
     transition: var(--5);
     transition-delay: var(--8);
 }
 
-.content-yjf30S > div:nth-child(1), .content-yjf30S > div:nth-child(2){ /* invisible separaters on community servers */
+.content-yjf30S > div:nth-child(1){ /* invisible separater on community servers */
     max-height: 0px;
     transition: var(--6);
     transition-delay: var(--7);
 }
-
 .sidebar-1tnWFu:hover .content-yjf30S > div:nth-child(1){
     max-height: 84px;
-    transition: var(--5);
-    transition-delay: var(--8);
-}
-
-.sidebar-1tnWFu:hover .content-yjf30S > div:nth-child(2){
-    max-height: 12px;
     transition: var(--5);
     transition-delay: var(--8);
 }
