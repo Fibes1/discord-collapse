@@ -28,7 +28,7 @@
     --6: 0.6s; /* hide animation length (default: 0.6s) */
     --7: 1s; /* how long the sidebar stays open after your cursor is moved away (default: 1s) */
     --8: 0.3s; /* how long the cursor should stay hovered before the sidebar is revealed (default: 0.3s) */
-    --9: 52px; /* width when collapsed (default: 52px) */
+    --9: 52; /* width when collapsed (default: 52) */
 
     /* users settings */
     --10: 0.2s; /* reveal animation length (default: 0.2s) */
