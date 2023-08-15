@@ -1,0 +1,51 @@
+.sidebar-1tnWFu{
+    width: var(--9);
+    transition: var(--6);
+    transition-delay: var(--7);
+}
+.sidebar-1tnWFu:hover{
+    width: 240px;
+    transition: var(--5);
+    transition-delay: var(--8);
+}
+
+.children-1MGS9G{
+    display: none;
+}
+.sidebar-1tnWFu:hover .children-1MGS9G{
+    display: flex;
+}
+
+.name-3BUDLf, .children-3MeUvj, .arrow-2HswgU{
+    opacity: 0;
+    transition: var(--6);
+    transition-delay: var(--7);
+}
+/* this is separate so that the channel names, user info & server name do not visibly disappear */
+.name-28HaxV, .nameTag-sc-gpq, .headerChildren-2qV9P8{
+    opacity: max(calc(strip-unit(var(--9)) - 59), 0);
+    transition-delay: calc(var(--7) + var(--6));
+}
+
+.sidebar-1tnWFu:hover .name-3BUDLf, .sidebar-1tnWFu:hover .children-3MeUvj, .sidebar-1tnWFu:hover .arrow-2HswgU, .sidebar-1tnWFu:hover .name-28HaxV, .sidebar-1tnWFu:hover .nameTag-sc-gpq, .sidebar-1tnWFu:hover  .headerChildren-2qV9P8{
+    opacity: 1;
+    transition: var(--5);
+    transition-delay: var(--8);
+}
+
+.wrapper-1S43wv:before{
+    opacity: 1;
+    transition: var(--6);
+    transition-delay: var(--7);
+    content:'';
+    position: absolute;
+    left: calc(var(--9) / 2 - 8px);
+    width: 10px;
+    border: 3px solid;
+    border-radius: 3px;
+}
+.sidebar-1tnWFu:hover .wrapper-1S43wv:before{
+    opacity: 0;
+    transition: var(--5);
+    transition-delay: var(--8);
+}
