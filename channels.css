@@ -55,21 +55,16 @@
     transition-delay: var(--8);
 }
 
-.avatar-1HDIsL{ /* dm avatars */
-    position: absolute;
-    left: min(calc(var(--9)*1px / 2 - 17px), 16px);
+.layout-1LjVue{ /* dms */
+    margin-left: min(calc(0.5px * var(--9) - 24px), 8px);
     transition: var(--6);
     transition-delay: var(--7);
 }
-.sidebar-1tnWFu:hover .avatar-1HDIsL{
-    left: 16px;
+
+.sidebar-1tnWFu:hover .layout-1LjVue{
+    margin-left: 8px;
     transition: var(--5);
     transition-delay: var(--8);
-}
-
-.content-66wMin{ /* dm names */
-    position: relative;
-    margin-left: 44px;
 }
 
 .container-1-ERn5{ /* banner & server info */
@@ -124,4 +119,21 @@
     right: 0px;
     transition: var(--5);
     transition-delay: var(--8);
+}
+
+::-webkit-scrollbar { /* remove scrollbar */
+    display: none;
+}
+
+.container-32HW5s, .container-1oeRFJ {
+    margin: 0;
+    max-width: unset;
+}
+
+.link-1_kTxV{
+    margin-left: -8px;
+}
+
+.linkTop-1W1aK6{
+    margin-left: 8px;
 }
