@@ -1,4 +1,21 @@
-.sidebar-1tnWFu{ /* sidebar */
+::-webkit-scrollbar { /* remove scrollbar */
+    display: none;
+}
+
+.container-32HW5s, .container-1oeRFJ {
+    margin: 0;
+    max-width: unset;
+}
+
+.link-1_kTxV{
+    margin-left: -8px;
+}
+
+.link-1_kTxV > div{
+    margin-left: 8px;
+}
+
+.sidebar-1tnWFu{ /* collapsible sidebar */
     width: calc(var(--9)*1px);
     transition: var(--6);
     transition-delay: var(--7);
@@ -67,6 +84,10 @@
     transition-delay: var(--8);
 }
 
+.container-1oeRFJ{ /* fix users list broken by no scrollbar */
+    margin-left: 8px;
+}
+
 .container-1-ERn5{ /* banner & server info */
     max-height: 48px;
     opacity: 0; 
@@ -119,21 +140,4 @@
     right: 0px;
     transition: var(--5);
     transition-delay: var(--8);
-}
-
-::-webkit-scrollbar { /* remove scrollbar */
-    display: none;
-}
-
-.container-32HW5s, .container-1oeRFJ {
-    margin: 0;
-    max-width: unset;
-}
-
-.link-1_kTxV{
-    margin-left: -8px;
-}
-
-.link-1_kTxV > div{
-    margin-left: 8px;
 }
