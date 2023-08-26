@@ -1,18 +1,26 @@
-::-webkit-scrollbar { /* remove scrollbar */
-    display: none;
+@keyframes show-scrollbar{
+    0%{
+        overflow: hidden;
+    }
+    100%{
+        overflow: scroll;
+    }
 }
-
-.container-32HW5s, .container-1oeRFJ {
-    margin: 0;
-    max-width: unset;
+@keyframes hide-scrollbar{
+    0%{
+        overflow: scroll;
+    }
+    100%{
+        overflow: hidden;
+    }
 }
-
-.link-1_kTxV{
-    margin-left: -8px;
-}
-
-.link-1_kTxV > div{
-    margin-left: 8px;
+@keyframes not-selectable{
+    0%{
+        pointer-events: none;
+    }
+    100%{
+        pointer-events: initial;
+    }
 }
 
 .sidebar-1tnWFu{ /* collapsible sidebar */
@@ -26,15 +34,85 @@
     transition-delay: var(--8);
 }
 
-.children-1MGS9G{ /* channel icons  */
-    max-width: 0px;
+.sidebar-1tnWFu .scrollerBase-1Pkza4{ /* hide scrollbar when not hovered */
+    animation: hide-scrollbar 0s step-end forwards;
+}
+.sidebar-1tnWFu:hover .scrollerBase-1Pkza4{
+    animation: show-scrollbar calc(var(--8) + var(--5)/2) step-end;
+}
+
+.container-32HW5s{ /* remove selected dm padding when collapsed */
+    margin-left: 0px;
+    transition: margin-left var(--6);
+    transition-delay: var(--7);
+}
+.sidebar-1tnWFu:hover .container-32HW5s{
+    margin-left: 8px;
+    transition: margin-left var(--5);
+    transition-delay: var(--8);
+}
+
+.link-1_kTxV{ /* remove selected channel padding when collapsed */
+    margin-left: -8px;
+    transition: margin-left var(--6);
+    transition-delay: var(--7);
+}
+.link-1_kTxV > div{
+    margin-left: 8px;
+    transition: margin-left var(--6);
+    transition-delay: var(--7);
+}
+.sidebar-1tnWFu:hover .link-1_kTxV, .sidebar-1tnWFu:hover .link-1_kTxV > div{
+    margin-left: 0px;
+    transition: margin-left var(--5);
+    transition-delay: var(--8);
+}
+
+.containerDefault-YUSmu3{ /* limit selected channel width to not go into where the scrollbar would be */
+    max-width: 232px;
+}
+
+.children-1MGS9G{ /* remove invite & settings buttons from channels when collapsed */
+    pointer-events: none;
     opacity: 0;
+    max-width: 0px;
     transition: var(--6);
     transition-delay: var(--7);
 }
+
 .sidebar-1tnWFu:hover .children-1MGS9G{
-    max-width: 40px;
+    animation: not-selectable calc(var(--8) + var(--5)/2) step-end forwards;
     opacity: 1;
+    max-width: 40px;
+    transition: var(--5);
+    transition-delay: var(--8);
+}
+
+.closeButton-mupH76{ /* make close dm button not clickable when collapsed (cant seem to get it to properly disappear?) */
+    pointer-events: none;
+}
+.sidebar-1tnWFu:hover .closeButton-mupH76{
+    animation: not-selectable calc(var(--8) + var(--5)/2) step-end forwards;
+}
+
+.layout-1LjVue{ /* dms */
+    margin-left: min(calc(0.5px * var(--9) - 24px), 8px);
+    transition: margin-left var(--6);
+    transition-delay: var(--7);
+}
+.sidebar-1tnWFu:hover .layout-1LjVue{
+    margin-left: 0px;
+    transition: margin-left var(--5);
+    transition-delay: var(--8);
+}
+
+.list-2x9Cl9 > div{ /* vc participants */
+    right: max(calc(-0.5px * var(--9) + 56px), 0px);
+    transition: var(--6);
+    transition-delay: var(--7);
+}
+.sidebar-1tnWFu:hover .list-2x9Cl9 > div{
+    right: 0px;
     transition: var(--5);
     transition-delay: var(--8);
 }
@@ -70,22 +148,6 @@
     opacity: 0;
     transition: var(--5);
     transition-delay: var(--8);
-}
-
-.layout-1LjVue{ /* dms */
-    margin-left: min(calc(0.5px * var(--9) - 24px), 8px);
-    transition: var(--6);
-    transition-delay: var(--7);
-}
-
-.sidebar-1tnWFu:hover .layout-1LjVue{
-    margin-left: 8px;
-    transition: var(--5);
-    transition-delay: var(--8);
-}
-
-.container-1oeRFJ{ /* fix users list broken by no scrollbar */
-    margin-left: 8px;
 }
 
 .container-1-ERn5{ /* banner & server info */
@@ -127,17 +189,6 @@
 }
 .sidebar-1tnWFu:hover #channels > ul > div:nth-child(1){
     max-height: 84px;
-    transition: var(--5);
-    transition-delay: var(--8);
-}
-
-.list-2x9Cl9 > div{ /* vc participants */
-    right: max(calc(-0.5px * var(--9) + 56px), 0px);
-    transition: var(--6);
-    transition-delay: var(--7);
-}
-.sidebar-1tnWFu:hover .list-2x9Cl9 > div{
-    right: 0px;
     transition: var(--5);
     transition-delay: var(--8);
 }
