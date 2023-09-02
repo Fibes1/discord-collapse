@@ -1,0 +1,202 @@
+@keyframes show-scrollbar{
+    0%{
+        overflow: hidden;
+    }
+    100%{
+        overflow: scroll;
+    }
+}
+@keyframes hide-scrollbar{
+    0%{
+        overflow: scroll;
+    }
+    100%{
+        overflow: hidden;
+    }
+}
+@keyframes not-selectable{
+    0%{
+        pointer-events: none;
+    }
+    100%{
+        pointer-events: initial;
+    }
+}
+
+.sidebar-1tnWFu{ /* collapsible sidebar */
+    position: absolute;
+    z-index: 9;
+    height: 100%;
+    width: calc(var(--9)*1px);
+    transition: var(--6);
+    transition-delay: var(--7);
+}
+.sidebar-1tnWFu:hover{
+    width: 240px;
+    transition: var(--5);
+    transition-delay: var(--8);
+}
+
+.chat-2ZfjoI{ /* move chat to account for collapsed sidebar */
+    z-index: 8;
+    padding-left: calc(var(--9)*1px);
+}
+
+.sidebar-1tnWFu .scrollerBase-1Pkza4{ /* hide scrollbar when not hovered */
+    animation: hide-scrollbar 0s step-end forwards;
+}
+.sidebar-1tnWFu:hover .scrollerBase-1Pkza4{
+    animation: show-scrollbar calc(var(--8) + var(--5)/2) step-end;
+}
+
+.container-32HW5s{ /* remove selected dm padding when collapsed */
+    margin-left: 0px;
+    transition: margin-left var(--6);
+    transition-delay: var(--7);
+}
+.sidebar-1tnWFu:hover .container-32HW5s{
+    margin-left: 8px;
+    transition: margin-left var(--5);
+    transition-delay: var(--8);
+}
+
+.link-1_kTxV{ /* remove selected channel padding when collapsed */
+    margin-left: -8px;
+    transition: margin-left var(--6);
+    transition-delay: var(--7);
+}
+.link-1_kTxV > div{
+    margin-left: 8px;
+    transition: margin-left var(--6);
+    transition-delay: var(--7);
+}
+.sidebar-1tnWFu:hover .link-1_kTxV, .sidebar-1tnWFu:hover .link-1_kTxV > div{
+    margin-left: 0px;
+    transition: margin-left var(--5);
+    transition-delay: var(--8);
+}
+
+.containerDefault-YUSmu3{ /* limit selected channel width to not go into where the scrollbar would be */
+    max-width: 232px;
+}
+
+.children-1MGS9G{ /* remove invite & settings buttons from channels when collapsed */
+    pointer-events: none;
+    opacity: 0;
+    max-width: 0px;
+    transition: var(--6);
+    transition-delay: var(--7);
+}
+
+.sidebar-1tnWFu:hover .children-1MGS9G{
+    animation: not-selectable calc(var(--8) + var(--5)/2) step-end forwards;
+    opacity: 1;
+    max-width: 40px;
+    transition: var(--5);
+    transition-delay: var(--8);
+}
+
+.closeButton-mupH76{ /* make close dm button not clickable when collapsed (cant seem to get it to properly disappear?) */
+    pointer-events: none;
+}
+.sidebar-1tnWFu:hover .closeButton-mupH76{
+    animation: not-selectable calc(var(--8) + var(--5)/2) step-end forwards;
+}
+
+.layout-1LjVue{ /* dms */
+    margin-left: min(calc(0.5px * var(--9) - 24px), 8px);
+    transition: margin-left var(--6);
+    transition-delay: var(--7);
+}
+.sidebar-1tnWFu:hover .layout-1LjVue{
+    margin-left: 0px;
+    transition: margin-left var(--5);
+    transition-delay: var(--8);
+}
+
+.list-2x9Cl9 > div{ /* vc participants */
+    right: max(calc(-0.5px * var(--9) + 56px), 0px);
+    transition: var(--6);
+    transition-delay: var(--7);
+}
+.sidebar-1tnWFu:hover .list-2x9Cl9 > div{
+    right: 0px;
+    transition: var(--5);
+    transition-delay: var(--8);
+}
+
+.name-3BUDLf, .children-3MeUvj, .arrow-2HswgU, .headerText-1qIDDT, .container-q97qHp .icon-2xnN2Y{ /* category name, category icons, category arrow, dm category name, dm category icons */
+    opacity: 0;
+    transition: var(--6);
+    transition-delay: var(--7);
+}
+.name-28HaxV, .nameTag-sc-gpq{ /* this is separate so that the channel names & user info do not visibly disappear */
+    opacity: calc(var(--9) - 59);
+    transition-delay: calc(var(--7) + var(--6));
+}
+
+.sidebar-1tnWFu:hover .name-3BUDLf, .sidebar-1tnWFu:hover .children-3MeUvj, .sidebar-1tnWFu:hover .arrow-2HswgU, .sidebar-1tnWFu:hover .name-28HaxV, .sidebar-1tnWFu:hover .nameTag-sc-gpq, .sidebar-1tnWFu:hover .headerText-1qIDDT, .sidebar-1tnWFu:hover .icon-2xnN2Y{
+    opacity: 1;
+    transition: opacity var(--5);
+    transition-delay: var(--8);
+}
+
+.wrapper-1S43wv:before, .sidebar-1tnWFu .content-yjf30S > .container-q97qHp:before{ /* custom rectangle */
+    opacity: 1;
+    transition: var(--6);
+    transition-delay: var(--7);
+    content:'';
+    position: absolute;
+    left: calc(var(--9)*1px / 2 - 8px);
+    width: 10px;
+    border: 3px solid;
+    border-radius: 3px;
+}
+.sidebar-1tnWFu:hover .wrapper-1S43wv:before, .sidebar-1tnWFu:hover .container-q97qHp:before{
+    opacity: 0;
+    transition: var(--5);
+    transition-delay: var(--8);
+}
+
+.container-1-ERn5{ /* banner & server info */
+    max-height: 48px;
+    opacity: 0; 
+    transition: var(--6);
+    transition-delay: var(--7);
+}
+.sidebar-1tnWFu:hover .container-1-ERn5{
+    max-height: 135px;
+    opacity: 1;
+    transition: var(--5);
+    transition-delay: var(--8);
+}
+
+.container-2giAcK{ /* boosts section */
+    max-height: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    opacity: 0; 
+    transition: var(--6);
+    transition-delay: var(--7);
+}
+.sidebar-1tnWFu:hover .container-2giAcK{
+    max-height: 57px;
+    margin-bottom: 12px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    opacity: 1;
+    transition: var(--5);
+    transition-delay: var(--8);
+}
+
+#channels > ul > div:nth-child(1){ /* invisible separater on community servers */
+    max-height: 0px;
+    transition: var(--6);
+    transition-delay: var(--7);
+}
+.sidebar-1tnWFu:hover #channels > ul > div:nth-child(1){
+    max-height: 84px;
+    transition: var(--5);
+    transition-delay: var(--8);
+}
