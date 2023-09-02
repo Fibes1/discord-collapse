@@ -1,0 +1,20 @@
+.membersWrap-3NUR2t{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    right: -240px;
+    background-color: var(--background);
+    padding-left: 1px;
+	transition: var(--11);
+	transition-delay: var(--12);
+}
+.membersWrap-3NUR2t:hover{
+    right: 0px;
+    padding-left: 0px;
+	transition: var(--10);
+	transition-delay: var(--13);
+}
+
+.membersWrap-3NUR2t:has(.selected-1-Z6gm){
+	right: 0px;
+}
