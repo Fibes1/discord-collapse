@@ -1,0 +1,15 @@
+.guilds-2JjMmN{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    padding-right: 1px;
+    left: -72px;
+	transition: var(--2);
+	transition-delay: var(--3);
+}
+.guilds-2JjMmN:hover{
+    left: 0px;
+    padding-right: 0px;
+	transition: var(--1);
+	transition-delay: var(--4);
+}
