@@ -1,13 +1,17 @@
 .guilds-2JjMmN{
-	opacity: 0;
-	width: 0px;
-	transition: var(--2);
-	transition-delay: var(--3);
-	padding: 1px;
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    padding-right: 1px;
+    left: -72px;
+    box-shadow: 0px 0px 60px 60px rgba(0, 0, 0, 0.0);
+    transition: var(--2);
+    transition-delay: var(--3);
 }
 .guilds-2JjMmN:hover{
-	opacity: 1;
-	width: 72px;
-	transition: var(--1);
-	transition-delay: var(--4);
+    left: 0px;
+    padding-right: 0px;
+    box-shadow: 0px 0px 60px 60px rgba(0, 0, 0, 0.2);
+    transition: var(--1);
+    transition-delay: var(--4);
 }
