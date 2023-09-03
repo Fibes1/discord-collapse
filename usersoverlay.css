@@ -16,9 +16,12 @@
     transition: var(--10);
     transition-delay: var(--13);
 }
-
 .membersWrap-3NUR2t:has(.selected-1-Z6gm){
     right: 0px;
     padding-left: 0px;
     box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.3);
+}
+
+.toolbar-3_r2xA > div[aria-label="Hide Member List"]{
+    display: none;
 }
