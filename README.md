@@ -1,3 +1,3 @@
-A discord theme which makes the sidebars (guilds, channels, users) collapsible. You can edit which ones are enabled and the speed of the transitions.
+A discord theme which makes the sidebars (guilds, channels, users) collapsible. You can edit which ones are enabled, if they display as an overlay or not, the speed of the transitions, and the size of the channels sidebar.
 
-![preview](https://github.com/Fibes1/discord-collapse/assets/75185623/0eb03aa1-7233-4dc1-afda-b9c5446cefc7)
+https://github.com/Fibes1/discord-collapse/assets/75185623/9e19ee53-0298-4fb3-82eb-a518116f00a1
