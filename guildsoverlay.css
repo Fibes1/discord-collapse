@@ -4,12 +4,14 @@
     height: 100%;
     padding-right: 1px;
     left: -72px;
-	transition: var(--2);
-	transition-delay: var(--3);
+    box-shadow: 0px 0px 60px 60px rgba(0, 0, 0, 0.0);
+    transition: var(--2);
+    transition-delay: var(--3);
 }
 .guilds-2JjMmN:hover{
     left: 0px;
     padding-right: 0px;
-	transition: var(--1);
-	transition-delay: var(--4);
+    box-shadow: 0px 0px 60px 60px rgba(0, 0, 0, 0.2);
+    transition: var(--1);
+    transition-delay: var(--4);
 }
