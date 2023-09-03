@@ -6,14 +6,14 @@
 
 
 /* add/remove comments surrounding an @import to disable/enable that feature */
-/* add/remove "overlay" to the end of a url to change how that sidebar is displayed (e.g. .../main/channelsoverlay.css') */
+/* add/remove "overlay" to the end of a url to change how that sidebar is displayed (e.g. .../channels.css' or .../channelsoverlay.css') */
 
 /* guilds sidebar */
-@import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/guilds.css');
+@import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/guildsoverlay.css');
 /* channels sidebar */
-/* @import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/channels.css'); */
+/* @import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/channelsoverlay.css'); */
 /* users sidebar */
-@import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/users.css');
+@import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/usersoverlay.css');
 
 :root {
     /* guilds settings */
