@@ -83,7 +83,7 @@
 .sidebar-1tnWFu:hover .children-1MGS9G{
     animation: not-selectable calc(var(--8) + var(--5)/2) step-end forwards;
     opacity: 1;
-    max-width: 40px;
+    max-width: 60px;
     transition: var(--5);
     transition-delay: var(--8);
 }
