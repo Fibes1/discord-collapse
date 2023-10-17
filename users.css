@@ -1,17 +1,17 @@
-.container-2o3qEW{
+.container-2vWgD2{
     opacity: 0;
     width: 0px;
     transition: var(--11);
     transition-delay: var(--12);
     padding: 1px;
 }
-.container-2o3qEW:hover{
+.container-2vWgD2:hover{
     opacity: 1;
     width: 240px;
     transition: var(--10);
     transition-delay: var(--13);
 }
-.container-2o3qEW:has(.selected-1-Z6gm){
+.container-2vWgD2:has(.selected-1-Z6gm){
     opacity: 1;
     width: 240px;
 }
