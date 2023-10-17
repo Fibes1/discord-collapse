@@ -1,4 +1,4 @@
-.membersWrap-3NUR2t{
+.membersWrap-3GwLFp{
     position: absolute;
     z-index: 10;
     height: 100%;
@@ -9,14 +9,14 @@
     transition: var(--11);
     transition-delay: var(--12);
 }
-.membersWrap-3NUR2t:hover{
+.membersWrap-3GwLFp:hover{
     right: 0px;
     padding-left: 0px;
     box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.3);
     transition: var(--10);
     transition-delay: var(--13);
 }
-.membersWrap-3NUR2t:has(.selected-1-Z6gm){
+.membersWrap-3GwLFp:has(.selected-1-Z6gm){
     right: 0px;
     padding-left: 0px;
     box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.3);
@@ -26,6 +26,6 @@
     display: none;
 }
 
-.container-2o3qEW{
+.container-2vWgD2{
     width: 0px;
 }
