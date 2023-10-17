@@ -39,7 +39,7 @@
     transition-delay: var(--8);
 }
 
-.chat-2ZfjoI{ /* move chat to account for collapsed sidebar */
+.chat-9g_3Xj{ /* move chat to account for collapsed sidebar */
     z-index: 8;
     padding-left: calc(var(--9)*1px);
 }
@@ -132,12 +132,12 @@
     transition: var(--6);
     transition-delay: var(--7);
 }
-.name-28HaxV, .nameTag-sc-gpq{ /* this is separate so that the channel names & user info do not visibly disappear */
+.name-28HaxV, .nameTag-2Q56-H{ /* this is separate so that the channel names & user info do not visibly disappear */
     opacity: calc(var(--9) - 59);
     transition-delay: calc(var(--7) + var(--6));
 }
 
-.sidebar-1tnWFu:hover .name-3BUDLf, .sidebar-1tnWFu:hover .children-3MeUvj, .sidebar-1tnWFu:hover .arrow-2HswgU, .sidebar-1tnWFu:hover .name-28HaxV, .sidebar-1tnWFu:hover .nameTag-sc-gpq, .sidebar-1tnWFu:hover .headerText-1qIDDT, .sidebar-1tnWFu:hover .icon-2xnN2Y{
+.sidebar-1tnWFu:hover .name-3BUDLf, .sidebar-1tnWFu:hover .children-3MeUvj, .sidebar-1tnWFu:hover .arrow-2HswgU, .sidebar-1tnWFu:hover .name-28HaxV, .sidebar-1tnWFu:hover .nameTag-2Q56-H, .sidebar-1tnWFu:hover .headerText-1qIDDT, .sidebar-1tnWFu:hover .icon-2xnN2Y{
     opacity: 1;
     transition: opacity var(--5);
     transition-delay: var(--8);
