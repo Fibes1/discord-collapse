@@ -23,7 +23,7 @@
     }
 }
 
-.sidebar_ded4b5{ /* collapsible sidebar */
+.sidebar_e031be{ /* collapsible sidebar */
     position: absolute;
     z-index: 9;
     height: 100%;
@@ -32,7 +32,7 @@
     transition: var(--6);
     transition-delay: var(--7);
 }
-.sidebar_ded4b5:hover{
+.sidebar_e031be:hover{
     width: 240px;
     box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.3);
     transition: var(--5);
@@ -44,45 +44,57 @@
     padding-left: calc(var(--9)*1px);
 }
 
-.sidebar_ded4b5 .scrollerBase_dc3aa9{ /* hide scrollbar when not hovered */
+.sidebar_e031be .scrollerBase_f742b2{ /* hide scrollbar when not hovered */
     animation: hide-scrollbar 0s step-end forwards;
 }
-.sidebar_ded4b5:hover .scrollerBase_dc3aa9{
+.sidebar_e031be:hover .scrollerBase_f742b2{
     animation: show-scrollbar calc(var(--8) + var(--5)/2) step-end;
 }
 
-.container__8759a{ /* remove selected dm padding when collapsed */
+.container__3792d{ /* remove selected dm padding when collapsed */
     margin-left: 0px;
     transition: margin-left var(--6);
     transition-delay: var(--7);
 }
-.sidebar_ded4b5:hover .container__8759a{
+.sidebar_e031be:hover .container__3792d{
     margin-left: 8px;
     transition: margin-left var(--5);
     transition-delay: var(--8);
 }
 
-.link__95dc0{ /* remove selected channel padding when collapsed */
+.link_ddbb36{ /* remove selected channel padding when collapsed */
     margin-left: -8px;
     transition: margin-left var(--6);
     transition-delay: var(--7);
 }
-.link__95dc0 > div{
+.link_ddbb36 > div{
     margin-left: 8px;
     transition: margin-left var(--6);
     transition-delay: var(--7);
 }
-.sidebar_ded4b5:hover .link__95dc0, .sidebar_ded4b5:hover .link__95dc0 > div{
+.sidebar_e031be:hover .link_ddbb36, .sidebar_e031be:hover .link_ddbb36 > div{
     margin-left: 0px;
     transition: margin-left var(--5);
     transition-delay: var(--8);
 }
 
-.containerDefault__3187b{ /* limit selected channel width to not go into where the scrollbar would be */
+.content__690c5 > .sectionDivider__9dbcb{ /* remove padding on channel separater when collapsed */
+    margin-left: 0px;
+    transition: var(--6);
+    transition-delay: var(--7);
+}
+
+.sidebar_e031be:hover .content__690c5 > .sectionDivider__9dbcb{
+    margin-left: 8px;
+    transition: var(--5);
+    transition-delay: var(--8);
+}
+
+.containerDefault_ae2ea4{ /* limit selected channel width to not go into where the scrollbar would be */
     max-width: 232px;
 }
 
-.children_a486f8{ /* remove invite & settings buttons from channels when collapsed */
+.children__563f2{ /* remove invite & settings buttons from channels when collapsed */
     pointer-events: none;
     opacity: 0;
     max-width: 0px;
@@ -90,7 +102,7 @@
     transition-delay: var(--7);
 }
 
-.sidebar_ded4b5:hover .children_a486f8{
+.sidebar_e031be:hover .children__563f2{
     animation: not-selectable calc(var(--8) + var(--5)/2) step-end forwards;
     opacity: 1;
     max-width: 60px;
@@ -98,10 +110,10 @@
     transition-delay: var(--8);
 }
 
-.closeButton__8f1fd{ /* make close dm button not clickable when collapsed (cant seem to get it to properly disappear?) */
+.closeButton__116c3{ /* make close dm button not clickable when collapsed (cant seem to get it to properly disappear?) */
     pointer-events: none;
 }
-.sidebar_ded4b5:hover .closeButton__8f1fd{
+.sidebar_e031be:hover .closeButton__116c3{
     animation: not-selectable calc(var(--8) + var(--5)/2) step-end forwards;
 }
 
@@ -110,7 +122,7 @@
     transition: margin-left var(--6);
     transition-delay: var(--7);
 }
-.sidebar_ded4b5:hover .layout__59abc{
+.sidebar_e031be:hover .layout__59abc{
     margin-left: 0px;
     transition: margin-left var(--5);
     transition-delay: var(--8);
@@ -121,29 +133,29 @@
     transition: var(--6);
     transition-delay: var(--7);
 }
-.sidebar_ded4b5:hover .list__02208 > div{
+.sidebar_e031be:hover .list__02208 > div{
     right: 0px;
     transition: var(--5);
     transition-delay: var(--8);
 }
 
-.name__590d6, .children_d4d259, .arrow_cb03b8, .headerText__051c0, .container_de798d .icon__4cb88{ /* category name, category icons, category arrow, dm category name, dm category icons */
+.name__27f04, .children_d18c7d, .icon__3aa8e, .headerText__88997, .container__43554 .icon_ae0b42{ /* category name, category icons, category arrow, dm category name, dm category icons */
     opacity: 0;
     transition: var(--6);
     transition-delay: var(--7);
 }
-.name__8d1ec, .nameTag__0e320{ /* this is separate so that the channel names & user info do not visibly disappear */
+.name__4eb92, .nameTag__77ab2{ /* this is separate so that the channel names & user info do not visibly disappear */
     opacity: calc(var(--9) - 59);
     transition-delay: calc(var(--7) + var(--6));
 }
 
-.sidebar_ded4b5:hover .name__590d6, .sidebar_ded4b5:hover .children_d4d259, .sidebar_ded4b5:hover .arrow_cb03b8, .sidebar_ded4b5:hover .name__8d1ec, .sidebar_ded4b5:hover .nameTag__0e320, .sidebar_ded4b5:hover .headerText__051c0, .sidebar_ded4b5:hover .icon__4cb88{
+.sidebar_e031be:hover .name__27f04, .sidebar_e031be:hover .children_d18c7d, .sidebar_e031be:hover .icon__3aa8e, .sidebar_e031be:hover .name__4eb92, .sidebar_e031be:hover .nameTag__77ab2, .sidebar_e031be:hover .headerText__88997, .sidebar_e031be:hover .icon_ae0b42{
     opacity: 1;
     transition: opacity var(--5);
     transition-delay: var(--8);
 }
 
-.wrapper__9c483:before, .sidebar_ded4b5 .content__23cab > .container_de798d:before{ /* custom rectangle */
+.wrapper__07e2f:before, .sidebar_e031be .content__690c5 > .container__43554:before{ /* custom rectangle */
     opacity: 1;
     transition: var(--6);
     transition-delay: var(--7);
@@ -154,26 +166,26 @@
     border: 3px solid;
     border-radius: 3px;
 }
-.sidebar_ded4b5:hover .wrapper__9c483:before, .sidebar_ded4b5:hover .container_de798d:before{
+.sidebar_e031be:hover .wrapper__07e2f:before, .sidebar_e031be:hover .container__43554:before{
     opacity: 0;
     transition: var(--5);
     transition-delay: var(--8);
 }
 
-.container__7c79d{ /* banner & server info */
+.container_f41675{ /* banner & server info */
     max-height: 48px;
     opacity: 0; 
     transition: var(--6);
     transition-delay: var(--7);
 }
-.sidebar_ded4b5:hover .container__7c79d{
+.sidebar_e031be:hover .container_f41675{
     max-height: 135px;
     opacity: 1;
     transition: var(--5);
     transition-delay: var(--8);
 }
 
-.container__4f639{ /* boosts section */
+.container_bc43c1{ /* boosts section */
     max-height: 0px;
     margin-bottom: 0px;
     padding-top: 0px;
@@ -182,7 +194,7 @@
     transition: var(--6);
     transition-delay: var(--7);
 }
-.sidebar_ded4b5:hover .container__4f639{
+.sidebar_e031be:hover .container_bc43c1{
     max-height: 57px;
     margin-bottom: 12px;
     padding-top: 6px;
@@ -197,7 +209,7 @@
     transition: var(--6);
     transition-delay: var(--7);
 }
-.sidebar_ded4b5:hover #channels > ul > div:nth-child(1){
+.sidebar_e031be:hover #channels > ul > div:nth-child(1){
     max-height: 84px;
     transition: var(--5);
     transition-delay: var(--8);
