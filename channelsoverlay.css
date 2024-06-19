@@ -39,7 +39,7 @@
     transition-delay: var(--8);
 }
 
-.chat__52833{ /* move chat to account for collapsed sidebar */
+.chat_a7d72e{ /* move chat to account for collapsed sidebar */
     z-index: 8;
     padding-left: calc(var(--9)*1px);
 }
