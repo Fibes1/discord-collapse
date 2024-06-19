@@ -1,11 +1,11 @@
-.guilds__2b93a{
+.guilds_a4d4d9{
     opacity: 0;
     width: 0px;
     transition: var(--2);
     transition-delay: var(--3);
     padding: 1px;
 }
-.guilds__2b93a:hover{
+.guilds_a4d4d9:hover{
     opacity: 1;
     width: 72px;
     transition: var(--1);
