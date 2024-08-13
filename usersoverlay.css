@@ -16,7 +16,7 @@
     transition: var(--10);
     transition-delay: var(--13);
 }
-.membersWrap_cbd271:has(.selected_e9f61e){
+.membersWrap_cbd271:has(.selected_d808b0){
     right: 0px;
     padding-left: 0px;
     box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.3);
