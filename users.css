@@ -11,7 +11,7 @@
     transition: var(--10);
     transition-delay: var(--13);
 }
-.container_cbd271:has(.selected_e9f61e){
+.container_cbd271:has(.selected_d808b0){
     opacity: 1;
     width: 240px;
 }
