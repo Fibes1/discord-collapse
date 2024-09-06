@@ -117,12 +117,12 @@
     animation: not-selectable calc(var(--8) + var(--5)/2) step-end forwards;
 }
 
-.layout_f9647d{ /* dms */
+.layout_ec8679{ /* dms */
     margin-left: min(calc(0.5px * var(--9) - 24px), 8px);
     transition: margin-left var(--6);
     transition-delay: var(--7);
 }
-.sidebar_a4d4d9:hover .layout_f9647d{
+.sidebar_a4d4d9:hover .layout_ec8679{
     margin-left: 0px;
     transition: margin-left var(--5);
     transition-delay: var(--8);
