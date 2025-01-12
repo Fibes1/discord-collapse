@@ -24,12 +24,12 @@
 }
 
 .sidebar_a4d4d9{ /* collapsible sidebar */
-    width: calc(var(--9)*1px);
+    max-width: calc(var(--9)*1px);
     transition: var(--6);
     transition-delay: var(--7);
 }
 .sidebar_a4d4d9:hover{
-    width: 240px;
+    max-width: 240px;
     transition: var(--5);
     transition-delay: var(--8);
 }
