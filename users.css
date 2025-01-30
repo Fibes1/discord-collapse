@@ -1,21 +1,21 @@
-.container_cbd271{
+.container_c8ffbb{
     opacity: 0;
     width: 0px;
     transition: var(--11);
     transition-delay: var(--12);
     padding: 1px;
 }
-.container_cbd271:hover{
+.container_c8ffbb:hover{
     opacity: 1;
     width: 240px;
     transition: var(--10);
     transition-delay: var(--13);
 }
-.container_cbd271:has(.selected_d808b0){
+.container_c8ffbb:has(.selected__91a9d){
     opacity: 1;
     width: 240px;
 }
 
-.toolbar_fc4f04 > div[aria-label="Hide Member List"]{
+.toolbar__9293f > div[aria-label="Hide Member List"]{
     display: none;
 }
