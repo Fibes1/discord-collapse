@@ -23,67 +23,67 @@
     }
 }
 
-.sidebar_a4d4d9{ /* collapsible sidebar */
+.sidebar_c48ade{ /* collapsible sidebar */
     max-width: calc(var(--9)*1px);
     transition: var(--6);
     transition-delay: var(--7);
 }
-.sidebar_a4d4d9:hover{
+.sidebar_c48ade:hover{
     max-width: 240px;
     transition: var(--5);
     transition-delay: var(--8);
 }
 
-.sidebar_a4d4d9 .scrollerBase_eed6a8{ /* hide scrollbar when not hovered */
+.sidebar_c48ade .scrollerBase__99f8c{ /* hide scrollbar when not hovered */
     animation: hide-scrollbar 0s step-end forwards;
 }
-.sidebar_a4d4d9:hover .scrollerBase_eed6a8{
+.sidebar_c48ade:hover .scrollerBase__99f8c{
     animation: show-scrollbar calc(var(--8) + var(--5)/2) step-end;
 }
 
-.container_d91ad9{ /* remove dm padding when collapsed */
+.container_e45859{ /* remove dm padding when collapsed */
     margin-left: 0px;
     transition: margin-left var(--6);
     transition-delay: var(--7);
 }
-.sidebar_a4d4d9:hover .container_d91ad9{
+.sidebar_c48ade:hover .container_e45859{
     margin-left: 8px;
     transition: margin-left var(--5);
     transition-delay: var(--8);
 }
 
-.link_d8bfb3{ /* remove selected channel padding when collapsed */
+.link__2ea32{ /* remove selected channel padding when collapsed */
     margin-left: -8px;
     transition: margin-left var(--6);
     transition-delay: var(--7);
 }
-.link_d8bfb3 > div{
+.link__2ea32 > div{
     margin-left: 8px;
     transition: margin-left var(--6);
     transition-delay: var(--7);
 }
-.sidebar_a4d4d9:hover .link_d8bfb3, .sidebar_a4d4d9:hover .link_d8bfb3 > div{
+.sidebar_c48ade:hover .link__2ea32, .sidebar_c48ade:hover .link__2ea32 > div{
     margin-left: 0px;
     transition: margin-left var(--5);
     transition-delay: var(--8);
 }
 
-.content_eed6a8 > .sectionDivider_c43953{ /* remove padding on channel separater when collapsed */
+.content__99f8c > .sectionDivider__629e4{ /* remove padding on channel separater when collapsed */
     margin-left: 0px;
     transition: var(--6);
     transition-delay: var(--7);
 }
-.sidebar_a4d4d9:hover .content_eed6a8 > .sectionDivider_c43953{
+.sidebar_c48ade:hover .content__99f8c > .sectionDivider__629e4{
     margin-left: 8px;
     transition: var(--5);
     transition-delay: var(--8);
 }
 
-.containerDefault_f6f816{ /* limit selected channel width to not go into where the scrollbar would be */
+.containerDefault_c69b6d{ /* limit selected channel width to not go into where the scrollbar would be */
     max-width: 232px;
 }
 
-.children_d8bfb3{ /* remove invite & settings buttons from channels when collapsed */
+.children__2ea32{ /* remove invite & settings buttons from channels when collapsed */
     pointer-events: none;
     opacity: 0;
     max-width: 0px;
@@ -91,7 +91,7 @@
     transition-delay: var(--7);
 }
 
-.sidebar_a4d4d9:hover .children_d8bfb3{
+.sidebar_c48ade:hover .children__2ea32{
     animation: not-selectable calc(var(--8) + var(--5)/2) step-end forwards;
     opacity: 1;
     max-width: 60px;
@@ -99,52 +99,52 @@
     transition-delay: var(--8);
 }
 
-.closeButton_c91bad{ /* make close dm button not clickable when collapsed (cant seem to get it to properly disappear?) */
+.closeButton__972a0{ /* make close dm button not clickable when collapsed (cant seem to get it to properly disappear?) */
     pointer-events: none;
 }
-.sidebar_a4d4d9:hover .closeButton_c91bad{
+.sidebar_c48ade:hover .closeButton__972a0{
     animation: not-selectable calc(var(--8) + var(--5)/2) step-end forwards;
 }
 
-.layout_ec8679{ /* dms */
+.layout__20a53{ /* dms */
     margin-left: min(calc(0.5px * var(--9) - 24px), 8px);
     transition: margin-left var(--6);
     transition-delay: var(--7);
 }
-.sidebar_a4d4d9:hover .layout_ec8679{
+.sidebar_c48ade:hover .layout__20a53{
     margin-left: 0px;
     transition: margin-left var(--5);
     transition-delay: var(--8);
 }
 
-.list_a478e5 > div{ /* vc participants */
+.list_c3cd7d > div{ /* vc participants */
     right: max(calc(-0.5px * var(--9) + 56px), 0px);
     transition: var(--6);
     transition-delay: var(--7);
 }
-.sidebar_a4d4d9:hover .list_a478e5 > div{
+.sidebar_c48ade:hover .list_c3cd7d > div{
     right: 0px;
     transition: var(--5);
     transition-delay: var(--8);
 }
 
-.name_a08117, .children_a08117, .icon_a08117, .headerText_c47fa9, .privateChannelsHeaderContainer_c47fa9 svg{ /* category name, category icons, category arrow, dm category name, dm category icons */
+.name__29444, .children__29444, .icon__29444, .headerText__99e7c, .privateChannelsHeaderContainer__99e7c svg{ /* category name, category icons, category arrow, dm category name, dm category icons */
     opacity: 0;
     transition: var(--6);
     transition-delay: var(--7);
 }
-.name_d8bfb3, .nameTag_b2ca13{ /* this is separate so that the channel names & user info do not visibly disappear */
+.name__2ea32, .nameTag__37e49{ /* this is separate so that the channel names & user info do not visibly disappear */
     opacity: calc(var(--9) - 59);
     transition-delay: calc(var(--7) + var(--6));
 }
 
-.sidebar_a4d4d9:hover .name_a08117, .sidebar_a4d4d9:hover .children_a08117, .sidebar_a4d4d9:hover .icon_a08117, .sidebar_a4d4d9:hover .name_d8bfb3, .sidebar_a4d4d9:hover .nameTag_b2ca13, .sidebar_a4d4d9:hover .headerText_c47fa9, .sidebar_a4d4d9:hover svg{
+.sidebar_c48ade:hover .name__29444, .sidebar_c48ade:hover .children__29444, .sidebar_c48ade:hover .icon__29444, .sidebar_c48ade:hover .name__2ea32, .sidebar_c48ade:hover .nameTag__37e49, .sidebar_c48ade:hover .headerText__99e7c, .sidebar_c48ade:hover svg{
     opacity: 1;
     transition: opacity var(--5);
     transition-delay: var(--8);
 }
 
-.wrapper_a08117:before, .sidebar_a4d4d9 .content_eed6a8 > .privateChannelsHeaderContainer_c47fa9:before{ /* custom rectangle */
+.wrapper__29444:before, .sidebar_c48ade .content__99f8c > .privateChannelsHeaderContainer__99e7c:before{ /* custom rectangle */
     opacity: 1;
     transition: var(--6);
     transition-delay: var(--7);
@@ -155,26 +155,26 @@
     border: 3px solid;
     border-radius: 3px;
 }
-.sidebar_a4d4d9:hover .wrapper_a08117:before, .sidebar_a4d4d9:hover .privateChannelsHeaderContainer_c47fa9:before{
+.sidebar_c48ade:hover .wrapper__29444:before, .sidebar_c48ade:hover .privateChannelsHeaderContainer__99e7c:before{
     opacity: 0;
     transition: var(--5);
     transition-delay: var(--8);
 }
 
-.container_fd6364{ /* banner & server info */
+.container_f37cb1{ /* banner & server info */
     max-height: 48px;
     opacity: 0; 
     transition: var(--6);
     transition-delay: var(--7);
 }
-.sidebar_a4d4d9:hover .container_fd6364{
+.sidebar_c48ade:hover .container_f37cb1{
     max-height: 135px;
     opacity: 1;
     transition: var(--5);
     transition-delay: var(--8);
 }
 
-.container_c75f85{ /* boosts section */
+.container_eff079{ /* boosts section */
     max-height: 0px;
     max-width: 224px;
     margin-bottom: 0px;
@@ -184,7 +184,7 @@
     transition: var(--6);
     transition-delay: var(--7);
 }
-.sidebar_a4d4d9:hover .container_c75f85{
+.sidebar_c48ade:hover .container_eff079{
     max-height: 57px;
     margin-bottom: 12px;
     padding-top: 6px;
@@ -199,20 +199,20 @@
     transition: var(--6);
     transition-delay: var(--7);
 }
-.sidebar_a4d4d9:hover #channels > ul > div:nth-child(1){
+.sidebar_c48ade:hover #channels > ul > div:nth-child(1){
     max-height: 84px;
     transition: var(--5);
     transition-delay: var(--8);
 }
 
-.voiceChannelsButton_a08117{ /* show all voice channels button */
+.voiceChannelsButton__29444{ /* show all voice channels button */
     pointer-events: none;
     opacity: 0;
     max-width: 188px;
     transition: opacity var(--6);
     transition-delay: var(--7);
 }
-.sidebar_a4d4d9:hover .voiceChannelsButton_a08117{
+.sidebar_c48ade:hover .voiceChannelsButton__29444{
     opacity: 1;
     transition: opacity var(--5);
     transition-delay: var(--8);
