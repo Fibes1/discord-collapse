@@ -1,13 +1,13 @@
 .guilds_c48ade{
     opacity: 0;
-    width: 0px;
+    width: 0px !important;
     transition: var(--2);
     transition-delay: var(--3);
     padding: 1px;
 }
 .guilds_c48ade:hover{
     opacity: 1;
-    width: 72px;
+    width: var(--custom-guild-list-width) !important;
     transition: var(--1);
     transition-delay: var(--4);
 }
