@@ -2,7 +2,7 @@
     position: absolute;
     z-index: 10;
     height: 100%;
-    right: -240px;
+    right: calc(0px - var(--custom-member-list-width));
     background-color: var(--background);
     padding-left: 1px;
     box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.0);
