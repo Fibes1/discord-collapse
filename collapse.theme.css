@@ -10,7 +10,7 @@
 
 /* guilds sidebar */
 @import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/guildsoverlay.css');
-/* channels sidebar */
+/* channels sidebar (only works with old UI) */
 /* @import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/channelsoverlay.css'); */
 /* users sidebar */
 @import url('https://raw.githubusercontent.com/Fibes1/discord-collapse/main/usersoverlay.css');
