@@ -7,13 +7,13 @@
 }
 .container_c8ffbb:hover{
     opacity: 1;
-    width: 240px;
+    width: var(--custom-member-list-width);
     transition: var(--10);
     transition-delay: var(--13);
 }
 .container_c8ffbb:has(.selected__91a9d){
     opacity: 1;
-    width: 240px;
+    width: var(--custom-member-list-width);
 }
 
 .toolbar__9293f > div[aria-label="Hide Member List"]{
