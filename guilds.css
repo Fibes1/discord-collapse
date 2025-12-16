@@ -1,11 +1,11 @@
-.guilds__5e434{
+._5e434347c823b592-guilds{
     opacity: 0;
     width: 0px !important;
     transition: var(--2);
     transition-delay: var(--3);
     padding: 1px;
 }
-.guilds__5e434:hover{
+._5e434347c823b592-guilds:hover{
     opacity: 1;
     width: var(--custom-guild-list-width) !important;
     transition: var(--1);
