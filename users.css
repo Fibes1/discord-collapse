@@ -1,21 +1,21 @@
-.container_c8ffbb{
+.c8ffbb79449f399c-container{
     opacity: 0;
     width: 0px;
     transition: var(--11);
     transition-delay: var(--12);
     padding: 1px;
 }
-.container_c8ffbb:hover{
+.c8ffbb79449f399c-container:hover{
     opacity: 1;
     width: var(--custom-member-list-width);
     transition: var(--10);
     transition-delay: var(--13);
 }
-.container_c8ffbb:has(.selected__91a9d){
+.c8ffbb79449f399c-container:has(._91a9d7f7e5248a56-selected){
     opacity: 1;
     width: var(--custom-member-list-width);
 }
 
-.toolbar__9293f > div[aria-label="Hide Member List"]{
+._9293f6b2fc12398a-toolbar > div[aria-label="Hide Member List"]{
     display: none;
 }
