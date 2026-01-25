@@ -1,4 +1,4 @@
-._5e434347c823b592-guilds{
+.guilds__5e434{
     position: absolute;
     z-index: 101;
     height: 100%;
@@ -8,7 +8,7 @@
     transition: var(--2);
     transition-delay: var(--3);
 }
-._5e434347c823b592-guilds:hover{
+.guilds__5e434:hover{
     left: 0px;
     padding-right: 0px;
     box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.3);
